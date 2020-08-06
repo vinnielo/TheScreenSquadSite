@@ -5,6 +5,8 @@ import Nav from './Components/nav'
 import Video from './Components/logo'
 import About from './Components/about'
 import Episodes from './Components/episodes'
+import Footer from './Components/footer'
+import episodeData from './episodeData'
 
 function App() {
   return (
@@ -12,7 +14,8 @@ function App() {
     <Nav />
     <Video/>  
     <About />
-    <Episodes/>
+    <Episodes episodeData={episodeData}/>
+    <Footer />
   
   </>
   );
