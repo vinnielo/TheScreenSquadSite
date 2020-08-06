@@ -29,8 +29,9 @@ let episodeData= {
             "name": "The Island of Dr. Moreau",
             "title":"Garbage Island",
             "description": "Welcome to the ScreenSquad Podcast. On this episode we talk about the goings on with a film that is so bad that there is a documentary about it, that is interesting. Yes, we dive into the island of Dr Moreau. Holy shit. This is a shit show of a film. Make sure to like and subscribe on our Facebook, Instagram, Twitter and YouTube pages. Leave a comment below and know that Ozzie replies so bad that he couldn't host the Oscars even if they asked.",
-            "imgUrl":"https://github.com/vinnielo/TheScreenSquadSite/blob/master/src/assets/9AA5A3E0-7FD4-45F7-828A-02CCCF358265_1_105_c.jpeg?raw=true",
+            "imgUrl":"https://github.com/vinnielo/TheScreenSquadSite/blob/master/src/assets/IMG_3576.JPG?raw=true",
             "youtube": "https://youtu.be/Uks0ZAv4e3o",
+            "yIcon": "./assets/Yt.png",
             "applePod": "test",
             "alt": "Island of Dr. Moreau"
             // "googlePlay": "",
