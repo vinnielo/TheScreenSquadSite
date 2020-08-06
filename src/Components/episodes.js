@@ -17,8 +17,8 @@ function Episodes(props) {
                 <Card.Body>
                   <Card.Title>{item.title}</Card.Title>
                   <Card.Text>{item.description}</Card.Text>
-          <a href={item.youtube} target="_blank" className="fab fa-youtube">{""}</a>
-          <img src="/src/assets/yt_icon_rgb.png" href={item.youtube} target="_blank" />
+          <a href={item.youtube} target="_blank" >
+          <img src="https://github.com/vinnielo/TheScreenSquadSite/blob/master/src/assets/yt_icon_rgb.png?raw=true" target="_blank" style={{width: 50}}/></a>
                    
                   
                 </Card.Body>
