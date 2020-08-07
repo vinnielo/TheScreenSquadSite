@@ -4,7 +4,7 @@ function Nav() {
   return (
     <div>
       <nav> 
-          <h1 style={{textAlign: "center"}}>Welcome to The ScreenSquad Podcast page!</h1>
+          <h1 style={{textAlign: "center", backgroundColor: "#000", color: "white",  marginBottom: "0"}}>Welcome to The ScreenSquad Podcast page!</h1>
       </nav>
     </div>
   );

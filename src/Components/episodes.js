@@ -13,7 +13,7 @@ function Episodes(props) {
           return (
             <>
               <Card>
-                <Card.Img variant="top" src={item.imgUrl} />
+                <Card.Img variant="top" src={item.imgUrl} style={{height: "200px"}}/>
                 <Card.Body>
                   <Card.Title>{item.title}</Card.Title>
                   <Card.Text>{item.description}</Card.Text>
@@ -28,7 +28,9 @@ function Episodes(props) {
         })}
       </CardDeck>
       <br />
-      <Button>All Episodes</Button>
+      <Button href="https://podcasts.apple.com/us/podcast/the-screen-squad/id1395723796" target="_blank" style={{marginLeft: "45%"}}>All Episodes</Button>
+      <br />
+      <br />
     </div>
   );
 }

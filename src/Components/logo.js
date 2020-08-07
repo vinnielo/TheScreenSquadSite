@@ -10,7 +10,7 @@ function Video() {
         height="800"
         loop autoPlay
         style={{backgroundColor: "#000",
-                width: "100%"}}
+                width: "100%", marginTop: "0"}}
         
       />
       
