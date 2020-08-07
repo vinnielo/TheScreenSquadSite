@@ -8,7 +8,7 @@ function Episodes(props) {
   return (
     <div>
       <h1 style={{ textAlign: "center" }}>EPISODES:</h1>
-      <CardDeck>
+      <CardDeck style={{marginLeft: "10px"}}>
         {epData.episodes.map((item) => {
           return (
             <>
